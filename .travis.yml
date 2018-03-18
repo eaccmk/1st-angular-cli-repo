@@ -1,25 +1,4 @@
-dist: trusty
-sudo: false
-
-addons:
-  chrome: stable
-
 language: node_js
-
-cache:
-  directories:
-     - ./node_modules
-	 
-stages:
-  - build
-  - test
-  - name: optional
-    if: (NOT type IN (pull_request)) AND (branch = master)
-  - deploy
-  
-before_install:
-  # Install npm 5.
-  - npm install -g npm@~5.6.0
-
-install:
-  - npm install
+node_js:
+  - "iojs"
+  - "7"
