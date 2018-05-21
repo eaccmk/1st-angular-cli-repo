@@ -1,22 +1,36 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+  <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="web search">
+  </div>
   <h1>
     Welcome to {{ title }}
   </h1>
-  <a href="https://github.com/eaccmk">
-      <img src="assets\img\eaccmk_pic.jpg" alt="eaccmk@github" style="width:210px;height:170px;border:0;">
-    </a>
+  
+  <div style="text-align:center">
+  <form action="_self"> <!-- or /index.html or /eaccmk.github.io  or _self  -->
+    <h4 style="text-align:center">Enter your github username & submit to see magic ! </h4>
+    <input type="text" value="" id="searchInput" placeholder="Search..." color="white">
+    <button onclick='window.open("https://github.com/"+searchInput.value)'>Submit</button> <br><br>
+  </form>
+</div>
+
+    <div style="text-align:center">
+      <a href="https://github.com/eaccmk"> <img src="assets\img\colorful_QR_eaccmk.png" alt="eaccmk@github" style="width:160px;height:160px;border:0;"> </a>
+      <h4 style="text-align:center; color: black">You can  scan <i class="em em-point_up_2"></i> to access later...</h4>
+    </div>
     <div content class="content">
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/eaccmk">My GitHyb Account</a></h2>
-  </li>
-<br><br><br>
-    <h4>
-      <a target="_blank" rel="noopener" href="https://angular.io/tutorial">Angular tutorial</a> | 
-      <a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a> | 
-      <a target="_blank" rel="noopener" href="https://blog.angular.io/" >Angular Blog</a>
-  </h4>
-</ul>
+        <li>
+            <h4><a target="_blank" rel="noopener" class="urls"href="https://github.com/eaccmk">Scan the code above or click to see My GitHyb Account</a></h4>
+        </li>
+    <ul>
+        <br><br><br><br><br><br><br><br><br>
+          <h5 style color="white">Below are some more links to get started withy your own Angular Web </h5>
+            <h4>
+              <a target="_blank" rel="noopener" class="urls" href="https://angular.io/tutorial">Angular tutorial</a> | 
+              <a target="_blank" rel="noopener" class="urls" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a> | 
+              <a target="_blank" rel="noopener" class="urls" href="https://blog.angular.io/" >Angular Blog</a>
+            </h4>
+    </ul>
 </div>
