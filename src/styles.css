@@ -10,7 +10,16 @@ p {color: white; font-size: 130%}
 div {text-align:center}
 #idStyle {color: black} /* Example of  ID tag */
 .urls {color: white} /* Example of Class tag */
-#searchInput {align-items: center}
+#searchInput {align-items: center;
+    font-family: "GT America web", sans-serif ;
+    font-size: 16px;
+    width: 278px;
+    padding: 0 14px 0 14px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
 
 /* Search CSS */
 
