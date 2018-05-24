@@ -1,24 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
-/* Example of  */
+/* Global styles sheet */
+
+/* Parent Level Style  */
+html {
+    color: #444;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    /* background: url(assets\img\e.png);  */
+}
+
 body {background-color: #15E5AF}
-h1 {color: white; background-color: grey; text-align:center}
-h2 {color:whitesmoke  ;background-color: lightgreen}
-h3 {color: grey ;background-color:lightsteelblue}
-h4 {color: white}
-h5 {color: white; background-color: grey}
-p {color: white; font-size: 130%}
+
+/* HTML Tag Level Style  */
+
+h1  {color:black; background-color: lightgreen; text-align:center}
+h2  {color:black  ;background-color: lightgreen}
+h3  {color: grey ;background-color:lightsteelblue}
+h4  {color: darkblue}
+h5  {color: black; background-color:lightgreen}
+p   {color:black; font-size: 130%}
 div {text-align:center}
+i   { margin-left: 6px; margin-right: 6px;  }
+/* HTML <ID> tag Style  */
+
 #idStyle {color: black} /* Example of  ID tag */
-.urls {color: white} /* Example of Class tag */
-#searchInput {align-items: center;
+
+/* HTML "class" tag Style  */
+.urls {color: white}
+
+/* Text Input tag Style  */
+#searchInput {
+    align-items: center;
     font-family: "GT America web", sans-serif ;
     font-size: 16px;
     width: 278px;
     padding: 0 14px 0 14px;
-    padding-top: 0px;
+    padding-top: 6px;
     padding-right: 14px;
-    padding-bottom: 0px;
+    padding-bottom: 6px;
     padding-left: 14px;
+}
+
+/* barcode CSS */
+
+.barcode-home-Page{
+    align-items: center;
+    width:220px;
+    height:190px;
+    border:5;
+    border-top:thin solid black;
+    border-right:thin solid black;
+    border-bottom: black;
+    border-left:thin solid  black;
+    box-shadow:0px 2px 4px 4px grey;
+}
+
+/* button CSS */
+button {
+    color: black; 
+    background-color: whitesmoke; 
+    text-align:center;
+    width: 110px;
+    height:32px;
+    padding: 0 14px 0 14px;
+    padding-top: 6px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    box-shadow:0px 1px 1px 1px grey;
 }
 
 /* Search CSS */
@@ -29,25 +78,25 @@ div {text-align:center}
     border-bottom:0;
     border-left:thin solid  #e5e5e5;
     box-shadow:0px 1px 1px 1px #e5e5e5;
-    /* float:left; */
     height:17px;
     margin:.8em 0 0 .5em; 
     outline:0;
     padding:.4em 0 .4em .6em; 
     width:183px; 
-}
+} 
+
 
 /* Reference for Navigation header: https://www.w3schools.com/howto/howto_css_searchbar.asp  */
 
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    /* background-color: #e9e9e9; */
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    /* float: left; */
     display: block;
     color: black;
     text-align: center;
@@ -62,15 +111,16 @@ div {text-align:center}
     color: black;
 }
 
+
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
     color: white;
 }
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-    float: right;
+    /* float: right; */
     padding: 6px;
     border: none;
     margin-top: 8px;
