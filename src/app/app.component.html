@@ -1,21 +1,48 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}
-  </h1>
-  <a href="https://github.com/eaccmk">
-      <img src="assets\img\eaccmk_pic.jpg" alt="eaccmk@github" style="width:210px;height:170px;border:0;">
-    </a>
+<div class="topnav">
+  <!-- <a class="active" href="#home">Home</a> -->
+  <!-- <a href="#about">About</a>
+        <a href="#contact">Contact</a> -->
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/eaccmk">My GitHyb Account</a></h2>
-  </li>
-<br><br><br>
+<h1>
+  Welcome to {{ title }}
+</h1>
+
+<div>
+  <form action="/">
+    <!-- or /index.html or /eaccmk.github.io  or _self  -->
+    <h4 style="text-align:center">Enter your github username &amp; submit to see magic !
+      <i class="em em-boom"></i>
+    </h4>
+    <input type="text" value="" id="searchInput" placeholder="It'll be our secret..." color="white">
+    <button onclick='window.open("https://github.com/"+searchInput.value)'>Submit</button>
+    <br>
+    <br>
+  </form>
+</div>
+
+<div>
+  <a href="https://github.com/eaccmk">
+    <img src="assets\img\bw-QR-code-github-acc.png" alt="eaccmk@github" class="barcode-home-Page" >
+  </a>
+  <h4 style="text-align:center; color: black">
+    <i class="em em-camera_with_flash" style="margin-right: 20px"></i>You can scan
+    <i class="em em-point_up_2"></i> to access later...</h4> or click
+    <a class="urls" href="https://github.com/eaccmk"> here</a> to see My Github Account
+</div>
+<div content class="content">
+  <br>
+  <br>
+  <br>
+  <ul>
+    <h5 style color="white"> Below
+      <i class="em em-arrow_lower_right"></i> are some more links to get started withy your own Angular Web </h5>
     <h4>
-      <a target="_blank" rel="noopener" href="https://angular.io/tutorial">Angular tutorial</a> | 
-      <a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a> | 
-      <a target="_blank" rel="noopener" href="https://blog.angular.io/" >Angular Blog</a>
-  </h4>
-</ul>
+      <a target="_blank" rel="noopener" class="urls" href="https://angular.io/tutorial">Angular tutorial</a> |
+      <a target="_blank" rel="noopener" class="urls" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a> |
+      <a target="_blank" rel="noopener" class="urls" href="https://blog.angular.io/">Angular Blog</a>
+    </h4>
+
+    <h4>designed with
+      <i class="em em-heart"></i> for code </h4>
+  </ul>
+</div>
